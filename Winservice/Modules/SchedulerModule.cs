@@ -1,10 +1,10 @@
 ﻿using Autofac;
 using Autofac.Extras.DynamicProxy;
 using Autofac.Extras.Quartz;
-using WinservicePoC.Interceptors;
-using WinservicePoC.Jobs;
+using Winservice.Interceptors;
+using Winservice.Jobs;
 
-namespace WinservicePoC.Modules
+namespace Winservice.Modules
 {
     class SchedulerModule : Module
     {

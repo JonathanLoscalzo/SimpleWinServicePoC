@@ -1,6 +1,6 @@
 ﻿using Autofac;
-using WinservicePoC.Configuration;
-using WinservicePoC.Extensions;
+using Winservice.Configuration;
+using Winservice.Extensions;
 
 using Serilog;
 using System;
@@ -8,7 +8,7 @@ using System.Diagnostics;
 using Topshelf;
 using Topshelf.Autofac;
 
-namespace WinservicePoC
+namespace Winservice
 {
     class Program
     {

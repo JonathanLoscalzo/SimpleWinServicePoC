@@ -1,11 +1,11 @@
-﻿using WinservicePoC.Configuration;
-using WinservicePoC.Services;
+﻿using Winservice.Configuration;
+using Winservice.Services;
 using Serilog;
 using System.Diagnostics;
 using Topshelf;
 using Topshelf.Autofac;
 
-namespace WinservicePoC.Extensions
+namespace Winservice.Extensions
 {
     static class HostConfiguratorExtensions
     {

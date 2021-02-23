@@ -1,11 +1,11 @@
 ﻿using Autofac;
-using WinservicePoC.Configuration;
-using WinservicePoC.Modules;
+using Winservice.Configuration;
+using Winservice.Modules;
 using Serilog;
 using Winservice.Modules;
 using AutofacSerilogIntegration;
 
-namespace WinservicePoC
+namespace Winservice
 {
     public class Startup
     {
@@ -28,7 +28,7 @@ namespace WinservicePoC
         public static void ConfigureContainer(ContainerBuilder containerBuilder)
         {
             containerBuilder.RegisterModule<SchedulerModule>();
-            containerBuilder.RegisterModule<WinservicePoC.Modules.ServicesModule>();
+            containerBuilder.RegisterModule<Winservice.Modules.ServicesModule>();
             containerBuilder.RegisterModule<BusinessModule>();
 
             //AutofacSerilogIntegration

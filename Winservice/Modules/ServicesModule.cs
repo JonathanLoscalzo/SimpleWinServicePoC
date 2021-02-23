@@ -1,12 +1,12 @@
 ﻿using Autofac;
-using WinservicePoC.Services;
+using Winservice.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinservicePoC.Modules
+namespace Winservice.Modules
 {
     class ServicesModule : Module
     {

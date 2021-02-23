@@ -3,7 +3,7 @@ using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace WinservicePoC.Interceptors
+namespace Winservice.Interceptors
 {
     class JobInterceptor : Attribute, IInterceptor
     {

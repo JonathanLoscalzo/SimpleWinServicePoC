@@ -4,7 +4,7 @@ using Quartz;
 using Serilog;
 using System.Threading.Tasks;
 
-namespace WinservicePoC.Jobs
+namespace Winservice.Jobs
 {
     public class FakeJob : IJob
     {

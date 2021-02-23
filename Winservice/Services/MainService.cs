@@ -1,11 +1,11 @@
 ﻿using Quartz;
-using WinservicePoC.Configuration;
-using WinservicePoC.Extensions;
+using Winservice.Configuration;
+using Winservice.Extensions;
 using Serilog;
 using System;
-using WinservicePoC.Jobs;
+using Winservice.Jobs;
 
-namespace WinservicePoC.Services
+namespace Winservice.Services
 {
     public class MainService
     {

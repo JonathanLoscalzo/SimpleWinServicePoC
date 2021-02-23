@@ -4,7 +4,7 @@ using System.Configuration;
 using System.Diagnostics;
 
 
-namespace WinservicePoC.Extensions
+namespace Winservice.Extensions
 {
     public static class TopshelfHelper
     {

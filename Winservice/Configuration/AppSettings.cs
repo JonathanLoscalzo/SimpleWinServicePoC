@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Configuration;
 
-namespace WinservicePoC.Configuration
+namespace Winservice.Configuration
 {
     public class AppSettings
     {

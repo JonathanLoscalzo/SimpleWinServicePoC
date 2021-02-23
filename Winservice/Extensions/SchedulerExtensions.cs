@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinservicePoC.Extensions
+namespace Winservice.Extensions
 {
     public static class SchedulerExtensions
     {
